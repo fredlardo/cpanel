@@ -1,0 +1,3 @@
+<?php require_once __DIR__ . "/config/app.php"; ?>
+<!DOCTYPE html><html lang="fr"><head><meta charset="UTF-8"><title>Mot de passe oublié</title><script src="https://cdn.tailwindcss.com"></script></head>
+<body class="bg-zinc-50 flex items-center justify-center min-h-screen"><div class="bg-white border rounded-xl p-6 max-w-sm w-full text-center"><h1 class="font-bold mb-2">Mot de passe oublié</h1><p class="text-sm text-muted mb-4">Veuillez contacter votre administrateur pour réinitialiser votre mot de passe.</p><a href="login.php" class="text-blue-700 text-sm">Retour connexion</a></div></body></html>

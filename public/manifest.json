@@ -1,0 +1,9 @@
+{
+  "name": "Doxera+ GED",
+  "short_name": "Doxera",
+  "start_url": "/doxera-plus/php/dashboard/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [{"src": "/doxera-plus/php/assets/img/logo.png","sizes": "192x192","type": "image/png"}]
+}

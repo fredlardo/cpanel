@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    # Remplacer CPANELUSER par l'identifiant cPanel (ex. /home/monuser/public_html/ged/)
+    - export DEPLOYPATH=/home/CPANELUSER/public_html/ged/
+    # Liste explicite : seuls ces fichiers sont copies, rien n'est supprime sur le serveur
+    - /bin/cp login.php $DEPLOYPATH
+    - /bin/cp includes/header.php includes/sidebar.php ${DEPLOYPATH}includes/
+    - /bin/cp assets/css/style.css ${DEPLOYPATH}assets/css/
+    - /bin/cp assets/img/pragma-logo-transparent.png ${DEPLOYPATH}assets/img/

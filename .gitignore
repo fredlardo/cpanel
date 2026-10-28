@@ -1,0 +1,8 @@
+# Propres au serveur : ne jamais versionner
+config/app.php
+config/database.php
+uploads/
+debug_*
+*.log
+seed.sql
+cookies*.txt
